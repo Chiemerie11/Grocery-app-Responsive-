@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bbeb813f9d.js" crossorigin="anonymous"></script>
+    <title>Responsive Grocery App</title>
+  </head>
+  <body>
+    
+    <!-- Main Header -->
+    <div class="container">
+        <div class="row">
+            <div id="first-headers" class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                <!-- <div>
+                    <i id="grocery-basket" class="fas fa-shopping-basket"></i>
+                </div> -->
+                <div id="h2-div">
+                    <h2 id="head">GROCERY SHOPPING APP</h2>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="container">
+        <div class="row">
+            <div class="mt-4 col-12 col-sm-12 col-md-12 col-lg-12">
+
+                <h4 id="price-list">Today's Price List</h4>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="border-right: 2px solid white;" scope="col">GROCERY ITEM</th>
+                      <td id="banana-item">Banana</td>
+                      <td id="pawpaw-item" scope="col">Paw-paw</td>
+                      <td id="orange-item" scope="col">Oranges</td>
+                      <td id="egg-item" scope="col">Eggs</td>
+                      <td id="meat-item" scope="col">Meat</td>
+                      <td id="fish-item" scope="col">Fish</td>
+                      <td id="bread-item" scope="col">Bread</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th style="border-right: 2px solid white;" scope="row">PRICES</th>
+                      <td>$<span id="banana-price">600</span></td>
+                      <td>$<span id="pawpaw-price">1000</span></td>
+                      <td>$<span id="orange-price">500</span></td>
+                      <td>$<span id="egg-price">3000</span></td>
+                      <td>$<span id="meat-price">1000</span></td>
+                      <td>$<span id="fish-price">2000</span></td>
+                      <td>$<span id="bread-price">5000</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Body Section -->
+    <div class="container-fluid">
+      <div class="row ">
+        <div>
+
+          <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 mt-4" id="budget-container">
+            <h3 id="tps">Total Personal Budget:</h3>
+            <h1 id="budget-immediate-container"><span style="font-size: 25px;">$</span><span style="width: 40%;" id="budget-amount">10000</span></h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- List Section -->
+    <div class="container">
+      <div class="row">
+        <div>
+
+          <div class="mt-3 col-12 col-sm-12 col-md-12 col-lg-12" id="main-container">
+            <div id="input-container">
+                <input type="text" placeholder="Enter grocery item here..." id="input">
+            </div>
+
+            <div id="buttons-container">
+                <button id="button-add">Add item to cart
+                    <i id="shopping-cart-icon" class="fas fa-shopping-cart"></i>
+                </button>
+                <br>
+                <button id="button-remove">Remove last added item
+                    <i id="delete-icon" class="fas fa-trash"></i>
+                </button>
+            </div>
+
+            <div id="lists-container">
+                <ul id="ul">
+                    
+                </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  <script src="script.js"></script>  
+  </body>
+</html>

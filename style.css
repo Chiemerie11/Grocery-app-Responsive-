@@ -1,0 +1,237 @@
+body 
+{
+    background-color: rgb(21, 21, 30);
+    margin-top: 10px;
+}
+
+/* MAIN HEADER STYLING */
+body #grocery-basket 
+{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+#head
+{
+    border-bottom: 2px solid white;
+}
+
+#h2-div h2
+{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translate(10px, 12px);
+    font-size: 25px;
+}
+
+#first-headers hr
+{
+    text-align: center;
+    color: white;
+}
+
+#price-list
+{
+    color: white; 
+    text-align: center;
+}
+
+.table
+{
+    width: 50%; 
+    margin: 0px auto;
+    color: white; 
+    font-size: 13px;
+}
+
+/* MAIN BODY STYLING */
+#budget-container 
+{
+    color: white;
+}
+
+#budget-container h1 
+{
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgb(5, 88, 5); 
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#budget-container h3
+{
+    font-size: 20px;
+}
+
+
+/* LISTS STYLINGS */
+#input-container input 
+{
+    padding: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttons-container 
+{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#button-add:hover 
+{
+    color: orangered;
+}
+
+#button-remove:hover 
+{
+    color: orangered;
+}
+
+#button-add 
+{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#button-remove
+{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#lists-container
+{
+    width: 30%;
+    margin: 50px auto;
+}
+
+#lists-container ul
+{
+    padding: 0px;
+}
+
+#lists-container ul li 
+{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:770px)
+{
+    #price-list
+    {
+        font-size: 17px;
+    }
+
+    .table
+    {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:376px)
+{
+   #button-add
+   {
+       font-size: 14px;
+       transform: translateX(15px);
+   }
+
+   #button-remove
+   {
+       font-size: 14px;
+       transform: translateX(5px);
+   }
+
+   #input
+   {
+       transform: translateX(20px);
+   }
+
+   #budget-immediate-container
+   {
+        transform: translateX(20px);   
+   }
+
+   #tps
+   {
+        transform: translateX(20px); 
+   }
+
+   #head
+   {
+        transform: translateX(25px);   
+   }
+
+   #input-container input 
+   {
+       font-size: 15px;
+   }
+}
+
+@media screen and (max-width:361px)
+{
+    #button-remove
+   {
+       font-size: 14px;
+       transform: translateX(15px);
+   } 
+   
+   #price-list
+   {
+        transform: translateX(20px);   
+   }
+}
+
+
+@media screen and (max-width:402px)
+{
+    .table
+    {
+        transform: translateX(-8px);
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    .table
+    {
+        transform: translateX(-13px);
+        width: 20%;
+        margin: 0px auto;
+    }
+}
+
+
